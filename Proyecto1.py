@@ -1,3 +1,6 @@
+# Importar la librería math
+import math
+
 # Definir las palabras clave de Python
 keywords = [
     'False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break',
@@ -8,128 +11,115 @@ keywords = [
 
 # Definir los patrones de los tokens
 token_patterns = [
-    (' ', None),  # Ignorar espacios
-    ('\t', None),  # Ignorar tabulaciones
+    (' ', None),  # Espacios
+    ('\t', None),  # Tabulaciones
     ('\n', 'NEWLINE'),  # Nueva línea
     ('#', 'COMMENT'),  # Comentarios
     ('.', 'FLOAT'),  # Punto decimal
-    ('0', 'INTEGER'),  # Números enteros (0-9)
-    ('1', 'INTEGER'),
-    ('2', 'INTEGER'),
-    ('3', 'INTEGER'),
-    ('4', 'INTEGER'),
-    ('5', 'INTEGER'),
-    ('6', 'INTEGER'),
-    ('7', 'INTEGER'),
-    ('8', 'INTEGER'),
-    ('9', 'INTEGER'),
+    ('0', 'INTEGER'),  # Números enteros
+    ('1', 'INTEGER'),  # Números enteros
+    ('2', 'INTEGER'),  # Números enteros
+    ('3', 'INTEGER'),  # Números enteros
+    ('4', 'INTEGER'),  # Números enteros
+    ('5', 'INTEGER'),  # Números enteros
+    ('6', 'INTEGER'),  # Números enteros
+    ('7', 'INTEGER'),  # Números enteros
+    ('8', 'INTEGER'),  # Números enteros
+    ('9', 'INTEGER'),  # Números enteros
     ('=', 'COMPARISON'),  # Operadores de comparación
-    ('!', 'COMPARISON'),
-    ('<', 'COMPARISON'),
-    ('>', 'COMPARISON'),
+    ('!', 'COMPARISON'),  # Operadores de comparación
+    ('<', 'COMPARISON'),  # Operadores de comparación
+    ('>', 'COMPARISON'),  # Operadores de comparación
     ('+', 'OPERATOR'),  # Operadores aritméticos
-    ('-', 'OPERATOR'),
-    ('*', 'OPERATOR'),
-    ('/', 'OPERATOR'),
-    ('%', 'OPERATOR'),
-    ('(', 'tk_par_izq'),  # Paréntesis izquierdo
-    (')', 'tk_par_der'),  # Paréntesis derecho
+    ('-', 'OPERATOR'),  # Operadores aritméticos
+    ('*', 'OPERATOR'),  # Operadores aritméticos
+    ('/', 'OPERATOR'),  # Operadores aritméticos
+    ('%', 'OPERATOR'),  # Operadores aritméticos
+    ('(', 'BRACKET'),  # Paréntesis
+    (')', 'BRACKET'),  # Paréntesis
     ('[', 'BRACKET'),  # Corchetes
-    (']', 'BRACKET'),
+    (']', 'BRACKET'),  # Corchetes
     ('{', 'BRACKET'),  # Llaves
-    ('}', 'BRACKET'),
-    ('"', 'tk_cadena'),  # Cadenas de texto (comillas dobles)
-    ("'", 'tk_cadena'),  # Cadenas de texto (comillas simples)
-    (':', 'tk_dos_puntos'),  # Dos puntos
-    ('@', 'SYMBOL'),
-    ('&', 'SYMBOL'),
-    ('|', 'SYMBOL'),
-    ('^', 'SYMBOL'),
-    ('~', 'SYMBOL'),
-    ('<', 'SYMBOL'),
-    ('>', 'SYMBOL'),
-    ('=', 'tk_asig'),  # Asignación
-    ('+', 'SYMBOL'),
-    ('-', 'SYMBOL'),
-    ('*', 'SYMBOL'),
-    ('/', 'SYMBOL'),
-    ('%', 'SYMBOL'),
-    ('_', 'SYMBOL'),
-    ('?', 'SYMBOL'),
+    ('}', 'BRACKET'),  # Llaves
+    ('"', 'STRING'),  # Cadenas de texto
+    ("'", 'STRING'),  # Cadenas de texto
+    (':', 'SYMBOL'),  # Símbolos adicionales
+    ('@', 'SYMBOL'),  # Símbolos adicionales
+    ('&', 'SYMBOL'),  # Símbolos adicionales
+    ('|', 'SYMBOL'),  # Símbolos adicionales
+    ('^', 'SYMBOL'),  # Símbolos adicionales
+    ('~', 'SYMBOL'),  # Símbolos adicionales
+    ('<', 'SYMBOL'),  # Símbolos adicionales
+    ('>', 'SYMBOL'),  # Símbolos adicionales
+    ('=', 'SYMBOL'),  # Símbolos adicionales
+    ('+', 'SYMBOL'),  # Símbolos adicionales
+    ('-', 'SYMBOL'),  # Símbolos adicionales
+    ('*', 'SYMBOL'),  # Símbolos adicionales
+    ('/', 'SYMBOL'),  # Símbolos adicionales
+    ('%', 'SYMBOL'),  # Símbolos adicionales
+    ('<<', 'SYMBOL'),  # Símbolos adicionales
+    ('>>', 'SYMBOL'),  # Símbolos adicionales
+    ('**', 'SYMBOL'),  # Símbolos adicionales
+    ('//', 'SYMBOL'),  # Símbolos adicionales
+    ('_', 'UNDERSCORE'),  # Identificación de subrayado
+    ('?', 'QUESTION')    # Identificación de signo de interrogación
 ]
-
-# Añadir patrones para letras del alfabeto, el guion bajo (_) y el signo de interrogación (?)
-letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-for letter in letters:
-    token_patterns.append((letter, 'IDENTIFIER'))
 
 # Lista de símbolos no manejados en Python
 non_python_symbols = []
 
-# Función para analizar los tokens
 def tokenize(code):
-    tokens = []  # Lista para almacenar los tokens encontrados
+    tokens = []
     line_num = 1  # Número de línea inicial
-    col_num = 1  # Número de columna inicial
     pos = 0  # Posición inicial en el código
-    while pos < len(code):  # Mientras no lleguemos al final del código
-        match = None  # Inicializar la variable de coincidencia
-        # Recorrer los patrones para buscar una coincidencia
+    while pos < len(code):
+        match = None
         for pattern, tag in token_patterns:
-            # Comprobamos si la cadena en la posición actual coincide con el patrón
+            # Verificar si el patrón coincide con el código en la posición actual
             if code[pos:pos+len(pattern)] == pattern:
-                match = pattern  # Si coincide, lo asignamos a 'match'
-                break  # Rompemos el bucle si encontramos una coincidencia
+                match = pattern
+                break
         if match:
-            text = match  # Asignamos la coincidencia a 'text'
-            if tag:  # Si hay una etiqueta asociada
-                # Si es un identificador, comprobamos si es una palabra clave
+            text = match
+            if tag:
+                # Identificación de palabras clave
                 if tag == 'IDENTIFIER' and text in keywords:
-                    tag = 'KEYWORD'  # Lo marcamos como palabra clave
-                # Añadimos el token a la lista de tokens
-                token = (tag, text, line_num, col_num)
+                    tag = 'KEYWORD'
+                token = (tag, text, line_num)
                 tokens.append(token)
-                # Si el token es desconocido, lo mostramos y lo añadimos a la lista
                 if tag == 'UNKNOWN':
                     print(f'Token desconocido encontrado: {text} en la línea {line_num}')
                     if text not in non_python_symbols:
                         non_python_symbols.append(text)
-            col_num += len(match)  # Avanzamos la posición de la columna
-            pos += len(match)  # Avanzamos la posición
-            # Si es una nueva línea, incrementamos el número de línea y reiniciamos la columna
+            pos += len(match)
             if text == '\n':
                 line_num += 1
-                col_num = 1
         else:
-            # Si no hay coincidencia, manejamos el carácter desconocido
-            unknown_char = code[pos]  # Capturamos el carácter desconocido
+            # Manejar caracteres desconocidos
+            unknown_char = code[pos]
             print(f'Token desconocido encontrado: {unknown_char} en la línea {line_num}')
-            tokens.append(('UNKNOWN', unknown_char, line_num, col_num))
-            col_num += 1
-            pos += 1  # Avanzamos la posición
-    return tokens  # Devolvemos la lista de tokens
+            tokens.append(('UNKNOWN', unknown_char, line_num))
+            pos += 1
+    return tokens
 
-# Función principal que toma los archivos de entrada y salida
 def main(input_file, output_file):
     # Leer el contenido del archivo de entrada
     with open(input_file, 'r', encoding='utf-8') as f:
         code = f.read()
-    # Tokenizar el código leído
+    # Tokenizar el código
     tokens = tokenize(code)
-    # Escribir los tokens en el archivo de salida en el formato específico
+    # Escribir los tokens en el archivo de salida
     with open(output_file, 'w', encoding='utf-8') as f:
         for token in tokens:
-            f.write(f'<{token[0]},{token[1]},{token[2]},{token[3]}>\n')
-    # Mostrar los símbolos no manejados si se encuentran
+            f.write(f'Token: {token[0]}, Lexema: {token[1]}, Línea: {token[2]}\n')
+    # Mostrar símbolos no manejados en Python
     if non_python_symbols:
         print('Símbolos no manejados en Python encontrados:')
         for symbol in non_python_symbols:
             print(symbol)
 
-# Iniciar la ejecución del programa
 if __name__ == '__main__':
     import sys
-    # Comprobar si se pasaron los argumentos correctos
     if len(sys.argv) != 3:
         print('Uso: python Proyecto1.py <archivo_entrada> <archivo_salida>')
     else:

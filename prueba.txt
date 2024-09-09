@@ -1,305 +1,305 @@
-Token: IDENTIFIER, Lexema: c, Línea: 1
-Token: IDENTIFIER, Lexema: l, Línea: 1
-Token: IDENTIFIER, Lexema: a, Línea: 1
-Token: IDENTIFIER, Lexema: s, Línea: 1
-Token: IDENTIFIER, Lexema: s, Línea: 1
-Token: IDENTIFIER, Lexema: A, Línea: 1
-Token: IDENTIFIER, Lexema: n, Línea: 1
-Token: IDENTIFIER, Lexema: i, Línea: 1
-Token: IDENTIFIER, Lexema: m, Línea: 1
-Token: IDENTIFIER, Lexema: a, Línea: 1
-Token: IDENTIFIER, Lexema: l, Línea: 1
-Token: BRACKET, Lexema: (, Línea: 1
-Token: IDENTIFIER, Lexema: o, Línea: 1
-Token: IDENTIFIER, Lexema: b, Línea: 1
-Token: IDENTIFIER, Lexema: j, Línea: 1
-Token: IDENTIFIER, Lexema: e, Línea: 1
-Token: IDENTIFIER, Lexema: c, Línea: 1
-Token: IDENTIFIER, Lexema: t, Línea: 1
-Token: BRACKET, Lexema: ), Línea: 1
-Token: SYMBOL, Lexema: :, Línea: 1
-Token: NEWLINE, Lexema: 
-, Línea: 1
-Token: IDENTIFIER, Lexema: m, Línea: 2
-Token: IDENTIFIER, Lexema: a, Línea: 2
-Token: IDENTIFIER, Lexema: k, Línea: 2
-Token: IDENTIFIER, Lexema: e, Línea: 2
-Token: IDENTIFIER, Lexema: s, Línea: 2
-Token: SYMBOL, Lexema: _, Línea: 2
-Token: IDENTIFIER, Lexema: n, Línea: 2
-Token: IDENTIFIER, Lexema: o, Línea: 2
-Token: IDENTIFIER, Lexema: i, Línea: 2
-Token: IDENTIFIER, Lexema: s, Línea: 2
-Token: IDENTIFIER, Lexema: e, Línea: 2
-Token: SYMBOL, Lexema: :, Línea: 2
-Token: IDENTIFIER, Lexema: b, Línea: 2
-Token: IDENTIFIER, Lexema: o, Línea: 2
-Token: IDENTIFIER, Lexema: o, Línea: 2
-Token: IDENTIFIER, Lexema: l, Línea: 2
-Token: COMPARISON, Lexema: =, Línea: 2
-Token: IDENTIFIER, Lexema: F, Línea: 2
-Token: IDENTIFIER, Lexema: a, Línea: 2
-Token: IDENTIFIER, Lexema: l, Línea: 2
-Token: IDENTIFIER, Lexema: s, Línea: 2
-Token: IDENTIFIER, Lexema: e, Línea: 2
-Token: NEWLINE, Lexema: 
-, Línea: 2
-Token: NEWLINE, Lexema: 
-, Línea: 3
-Token: IDENTIFIER, Lexema: d, Línea: 4
-Token: IDENTIFIER, Lexema: e, Línea: 4
-Token: IDENTIFIER, Lexema: f, Línea: 4
-Token: IDENTIFIER, Lexema: m, Línea: 4
-Token: IDENTIFIER, Lexema: a, Línea: 4
-Token: IDENTIFIER, Lexema: k, Línea: 4
-Token: IDENTIFIER, Lexema: e, Línea: 4
-Token: SYMBOL, Lexema: _, Línea: 4
-Token: IDENTIFIER, Lexema: n, Línea: 4
-Token: IDENTIFIER, Lexema: o, Línea: 4
-Token: IDENTIFIER, Lexema: i, Línea: 4
-Token: IDENTIFIER, Lexema: s, Línea: 4
-Token: IDENTIFIER, Lexema: e, Línea: 4
-Token: BRACKET, Lexema: (, Línea: 4
-Token: IDENTIFIER, Lexema: s, Línea: 4
-Token: IDENTIFIER, Lexema: e, Línea: 4
-Token: IDENTIFIER, Lexema: l, Línea: 4
-Token: IDENTIFIER, Lexema: f, Línea: 4
-Token: BRACKET, Lexema: ), Línea: 4
-Token: SYMBOL, Lexema: :, Línea: 4
-Token: NEWLINE, Lexema: 
-, Línea: 4
-Token: IDENTIFIER, Lexema: i, Línea: 5
-Token: IDENTIFIER, Lexema: f, Línea: 5
-Token: IDENTIFIER, Lexema: s, Línea: 5
-Token: IDENTIFIER, Lexema: e, Línea: 5
-Token: IDENTIFIER, Lexema: l, Línea: 5
-Token: IDENTIFIER, Lexema: f, Línea: 5
-Token: FLOAT, Lexema: ., Línea: 5
-Token: IDENTIFIER, Lexema: m, Línea: 5
-Token: IDENTIFIER, Lexema: a, Línea: 5
-Token: IDENTIFIER, Lexema: k, Línea: 5
-Token: IDENTIFIER, Lexema: e, Línea: 5
-Token: IDENTIFIER, Lexema: s, Línea: 5
-Token: SYMBOL, Lexema: _, Línea: 5
-Token: IDENTIFIER, Lexema: n, Línea: 5
-Token: IDENTIFIER, Lexema: o, Línea: 5
-Token: IDENTIFIER, Lexema: i, Línea: 5
-Token: IDENTIFIER, Lexema: s, Línea: 5
-Token: IDENTIFIER, Lexema: e, Línea: 5
-Token: SYMBOL, Lexema: :, Línea: 5
-Token: NEWLINE, Lexema: 
-, Línea: 5
-Token: IDENTIFIER, Lexema: p, Línea: 6
-Token: IDENTIFIER, Lexema: r, Línea: 6
-Token: IDENTIFIER, Lexema: i, Línea: 6
-Token: IDENTIFIER, Lexema: n, Línea: 6
-Token: IDENTIFIER, Lexema: t, Línea: 6
-Token: BRACKET, Lexema: (, Línea: 6
-Token: IDENTIFIER, Lexema: s, Línea: 6
-Token: IDENTIFIER, Lexema: e, Línea: 6
-Token: IDENTIFIER, Lexema: l, Línea: 6
-Token: IDENTIFIER, Lexema: f, Línea: 6
-Token: FLOAT, Lexema: ., Línea: 6
-Token: IDENTIFIER, Lexema: s, Línea: 6
-Token: IDENTIFIER, Lexema: o, Línea: 6
-Token: IDENTIFIER, Lexema: u, Línea: 6
-Token: IDENTIFIER, Lexema: n, Línea: 6
-Token: IDENTIFIER, Lexema: d, Línea: 6
-Token: BRACKET, Lexema: (, Línea: 6
-Token: BRACKET, Lexema: ), Línea: 6
-Token: BRACKET, Lexema: ), Línea: 6
-Token: NEWLINE, Lexema: 
-, Línea: 6
-Token: NEWLINE, Lexema: 
-, Línea: 7
-Token: IDENTIFIER, Lexema: d, Línea: 8
-Token: IDENTIFIER, Lexema: e, Línea: 8
-Token: IDENTIFIER, Lexema: f, Línea: 8
-Token: IDENTIFIER, Lexema: s, Línea: 8
-Token: IDENTIFIER, Lexema: o, Línea: 8
-Token: IDENTIFIER, Lexema: u, Línea: 8
-Token: IDENTIFIER, Lexema: n, Línea: 8
-Token: IDENTIFIER, Lexema: d, Línea: 8
-Token: BRACKET, Lexema: (, Línea: 8
-Token: IDENTIFIER, Lexema: s, Línea: 8
-Token: IDENTIFIER, Lexema: e, Línea: 8
-Token: IDENTIFIER, Lexema: l, Línea: 8
-Token: IDENTIFIER, Lexema: f, Línea: 8
-Token: BRACKET, Lexema: ), Línea: 8
-Token: OPERATOR, Lexema: -, Línea: 8
-Token: COMPARISON, Lexema: >, Línea: 8
-Token: IDENTIFIER, Lexema: s, Línea: 8
-Token: IDENTIFIER, Lexema: t, Línea: 8
-Token: IDENTIFIER, Lexema: r, Línea: 8
-Token: SYMBOL, Lexema: :, Línea: 8
-Token: NEWLINE, Lexema: 
-, Línea: 8
-Token: IDENTIFIER, Lexema: r, Línea: 9
-Token: IDENTIFIER, Lexema: e, Línea: 9
-Token: IDENTIFIER, Lexema: t, Línea: 9
-Token: IDENTIFIER, Lexema: u, Línea: 9
-Token: IDENTIFIER, Lexema: r, Línea: 9
-Token: IDENTIFIER, Lexema: n, Línea: 9
-Token: STRING, Lexema: ", Línea: 9
-Token: SYMBOL, Lexema: ?, Línea: 9
-Token: SYMBOL, Lexema: ?, Línea: 9
-Token: SYMBOL, Lexema: ?, Línea: 9
-Token: STRING, Lexema: ", Línea: 9
-Token: NEWLINE, Lexema: 
-, Línea: 9
-Token: NEWLINE, Lexema: 
-, Línea: 10
-Token: IDENTIFIER, Lexema: c, Línea: 11
-Token: IDENTIFIER, Lexema: l, Línea: 11
-Token: IDENTIFIER, Lexema: a, Línea: 11
-Token: IDENTIFIER, Lexema: s, Línea: 11
-Token: IDENTIFIER, Lexema: s, Línea: 11
-Token: IDENTIFIER, Lexema: C, Línea: 11
-Token: IDENTIFIER, Lexema: o, Línea: 11
-Token: IDENTIFIER, Lexema: w, Línea: 11
-Token: BRACKET, Lexema: (, Línea: 11
-Token: IDENTIFIER, Lexema: A, Línea: 11
-Token: IDENTIFIER, Lexema: n, Línea: 11
-Token: IDENTIFIER, Lexema: i, Línea: 11
-Token: IDENTIFIER, Lexema: m, Línea: 11
-Token: IDENTIFIER, Lexema: a, Línea: 11
-Token: IDENTIFIER, Lexema: l, Línea: 11
-Token: BRACKET, Lexema: ), Línea: 11
-Token: SYMBOL, Lexema: :, Línea: 11
-Token: NEWLINE, Lexema: 
-, Línea: 11
-Token: IDENTIFIER, Lexema: d, Línea: 12
-Token: IDENTIFIER, Lexema: e, Línea: 12
-Token: IDENTIFIER, Lexema: f, Línea: 12
-Token: SYMBOL, Lexema: _, Línea: 12
-Token: SYMBOL, Lexema: _, Línea: 12
-Token: IDENTIFIER, Lexema: i, Línea: 12
-Token: IDENTIFIER, Lexema: n, Línea: 12
-Token: IDENTIFIER, Lexema: i, Línea: 12
-Token: IDENTIFIER, Lexema: t, Línea: 12
-Token: SYMBOL, Lexema: _, Línea: 12
-Token: SYMBOL, Lexema: _, Línea: 12
-Token: BRACKET, Lexema: (, Línea: 12
-Token: IDENTIFIER, Lexema: s, Línea: 12
-Token: IDENTIFIER, Lexema: e, Línea: 12
-Token: IDENTIFIER, Lexema: l, Línea: 12
-Token: IDENTIFIER, Lexema: f, Línea: 12
-Token: BRACKET, Lexema: ), Línea: 12
-Token: SYMBOL, Lexema: :, Línea: 12
-Token: NEWLINE, Lexema: 
-, Línea: 12
-Token: IDENTIFIER, Lexema: s, Línea: 13
-Token: IDENTIFIER, Lexema: e, Línea: 13
-Token: IDENTIFIER, Lexema: l, Línea: 13
-Token: IDENTIFIER, Lexema: f, Línea: 13
-Token: FLOAT, Lexema: ., Línea: 13
-Token: IDENTIFIER, Lexema: m, Línea: 13
-Token: IDENTIFIER, Lexema: a, Línea: 13
-Token: IDENTIFIER, Lexema: k, Línea: 13
-Token: IDENTIFIER, Lexema: e, Línea: 13
-Token: IDENTIFIER, Lexema: s, Línea: 13
-Token: SYMBOL, Lexema: _, Línea: 13
-Token: IDENTIFIER, Lexema: n, Línea: 13
-Token: IDENTIFIER, Lexema: o, Línea: 13
-Token: IDENTIFIER, Lexema: i, Línea: 13
-Token: IDENTIFIER, Lexema: s, Línea: 13
-Token: IDENTIFIER, Lexema: e, Línea: 13
-Token: COMPARISON, Lexema: =, Línea: 13
-Token: IDENTIFIER, Lexema: T, Línea: 13
-Token: IDENTIFIER, Lexema: r, Línea: 13
-Token: IDENTIFIER, Lexema: u, Línea: 13
-Token: IDENTIFIER, Lexema: e, Línea: 13
-Token: NEWLINE, Lexema: 
-, Línea: 13
-Token: NEWLINE, Lexema: 
-, Línea: 14
-Token: IDENTIFIER, Lexema: d, Línea: 15
-Token: IDENTIFIER, Lexema: e, Línea: 15
-Token: IDENTIFIER, Lexema: f, Línea: 15
-Token: IDENTIFIER, Lexema: s, Línea: 15
-Token: IDENTIFIER, Lexema: o, Línea: 15
-Token: IDENTIFIER, Lexema: u, Línea: 15
-Token: IDENTIFIER, Lexema: n, Línea: 15
-Token: IDENTIFIER, Lexema: d, Línea: 15
-Token: BRACKET, Lexema: (, Línea: 15
-Token: IDENTIFIER, Lexema: s, Línea: 15
-Token: IDENTIFIER, Lexema: e, Línea: 15
-Token: IDENTIFIER, Lexema: l, Línea: 15
-Token: IDENTIFIER, Lexema: f, Línea: 15
-Token: BRACKET, Lexema: ), Línea: 15
-Token: OPERATOR, Lexema: -, Línea: 15
-Token: COMPARISON, Lexema: >, Línea: 15
-Token: IDENTIFIER, Lexema: s, Línea: 15
-Token: IDENTIFIER, Lexema: t, Línea: 15
-Token: IDENTIFIER, Lexema: r, Línea: 15
-Token: SYMBOL, Lexema: :, Línea: 15
-Token: NEWLINE, Lexema: 
-, Línea: 15
-Token: IDENTIFIER, Lexema: r, Línea: 16
-Token: IDENTIFIER, Lexema: e, Línea: 16
-Token: IDENTIFIER, Lexema: t, Línea: 16
-Token: IDENTIFIER, Lexema: u, Línea: 16
-Token: IDENTIFIER, Lexema: r, Línea: 16
-Token: IDENTIFIER, Lexema: n, Línea: 16
-Token: STRING, Lexema: ", Línea: 16
-Token: IDENTIFIER, Lexema: M, Línea: 16
-Token: IDENTIFIER, Lexema: o, Línea: 16
-Token: IDENTIFIER, Lexema: o, Línea: 16
-Token: STRING, Lexema: ", Línea: 16
-Token: NEWLINE, Lexema: 
-, Línea: 16
-Token: NEWLINE, Lexema: 
-, Línea: 17
-Token: IDENTIFIER, Lexema: c, Línea: 18
-Token: SYMBOL, Lexema: :, Línea: 18
-Token: IDENTIFIER, Lexema: A, Línea: 18
-Token: IDENTIFIER, Lexema: n, Línea: 18
-Token: IDENTIFIER, Lexema: i, Línea: 18
-Token: IDENTIFIER, Lexema: m, Línea: 18
-Token: IDENTIFIER, Lexema: a, Línea: 18
-Token: IDENTIFIER, Lexema: l, Línea: 18
-Token: COMPARISON, Lexema: =, Línea: 18
-Token: IDENTIFIER, Lexema: N, Línea: 18
-Token: IDENTIFIER, Lexema: o, Línea: 18
-Token: IDENTIFIER, Lexema: n, Línea: 18
-Token: IDENTIFIER, Lexema: e, Línea: 18
-Token: NEWLINE, Lexema: 
-, Línea: 18
-Token: IDENTIFIER, Lexema: c, Línea: 19
-Token: COMPARISON, Lexema: =, Línea: 19
-Token: IDENTIFIER, Lexema: C, Línea: 19
-Token: IDENTIFIER, Lexema: o, Línea: 19
-Token: IDENTIFIER, Lexema: w, Línea: 19
-Token: BRACKET, Lexema: (, Línea: 19
-Token: BRACKET, Lexema: ), Línea: 19
-Token: NEWLINE, Lexema: 
-, Línea: 19
-Token: IDENTIFIER, Lexema: c, Línea: 20
-Token: FLOAT, Lexema: ., Línea: 20
-Token: IDENTIFIER, Lexema: m, Línea: 20
-Token: IDENTIFIER, Lexema: a, Línea: 20
-Token: IDENTIFIER, Lexema: k, Línea: 20
-Token: IDENTIFIER, Lexema: e, Línea: 20
-Token: SYMBOL, Lexema: _, Línea: 20
-Token: IDENTIFIER, Lexema: n, Línea: 20
-Token: IDENTIFIER, Lexema: o, Línea: 20
-Token: IDENTIFIER, Lexema: i, Línea: 20
-Token: IDENTIFIER, Lexema: s, Línea: 20
-Token: IDENTIFIER, Lexema: e, Línea: 20
-Token: BRACKET, Lexema: (, Línea: 20
-Token: BRACKET, Lexema: ), Línea: 20
-Token: COMMENT, Lexema: #, Línea: 20
-Token: IDENTIFIER, Lexema: I, Línea: 20
-Token: IDENTIFIER, Lexema: m, Línea: 20
-Token: IDENTIFIER, Lexema: p, Línea: 20
-Token: IDENTIFIER, Lexema: r, Línea: 20
-Token: IDENTIFIER, Lexema: i, Línea: 20
-Token: IDENTIFIER, Lexema: m, Línea: 20
-Token: IDENTIFIER, Lexema: e, Línea: 20
-Token: STRING, Lexema: ", Línea: 20
-Token: IDENTIFIER, Lexema: M, Línea: 20
-Token: IDENTIFIER, Lexema: o, Línea: 20
-Token: IDENTIFIER, Lexema: o, Línea: 20
-Token: STRING, Lexema: ", Línea: 20
-Token: NEWLINE, Lexema: 
-, Línea: 20
+<IDENTIFIER,c,1,1>
+<IDENTIFIER,l,1,2>
+<IDENTIFIER,a,1,3>
+<IDENTIFIER,s,1,4>
+<IDENTIFIER,s,1,5>
+<IDENTIFIER,A,1,7>
+<IDENTIFIER,n,1,8>
+<IDENTIFIER,i,1,9>
+<IDENTIFIER,m,1,10>
+<IDENTIFIER,a,1,11>
+<IDENTIFIER,l,1,12>
+<tk_par_izq,(,1,13>
+<IDENTIFIER,o,1,14>
+<IDENTIFIER,b,1,15>
+<IDENTIFIER,j,1,16>
+<IDENTIFIER,e,1,17>
+<IDENTIFIER,c,1,18>
+<IDENTIFIER,t,1,19>
+<tk_par_der,),1,20>
+<tk_dos_puntos,:,1,21>
+<NEWLINE,
+,1,22>
+<IDENTIFIER,m,2,5>
+<IDENTIFIER,a,2,6>
+<IDENTIFIER,k,2,7>
+<IDENTIFIER,e,2,8>
+<IDENTIFIER,s,2,9>
+<SYMBOL,_,2,10>
+<IDENTIFIER,n,2,11>
+<IDENTIFIER,o,2,12>
+<IDENTIFIER,i,2,13>
+<IDENTIFIER,s,2,14>
+<IDENTIFIER,e,2,15>
+<tk_dos_puntos,:,2,16>
+<IDENTIFIER,b,2,18>
+<IDENTIFIER,o,2,19>
+<IDENTIFIER,o,2,20>
+<IDENTIFIER,l,2,21>
+<COMPARISON,=,2,23>
+<IDENTIFIER,F,2,25>
+<IDENTIFIER,a,2,26>
+<IDENTIFIER,l,2,27>
+<IDENTIFIER,s,2,28>
+<IDENTIFIER,e,2,29>
+<NEWLINE,
+,2,30>
+<NEWLINE,
+,3,1>
+<IDENTIFIER,d,4,5>
+<IDENTIFIER,e,4,6>
+<IDENTIFIER,f,4,7>
+<IDENTIFIER,m,4,9>
+<IDENTIFIER,a,4,10>
+<IDENTIFIER,k,4,11>
+<IDENTIFIER,e,4,12>
+<SYMBOL,_,4,13>
+<IDENTIFIER,n,4,14>
+<IDENTIFIER,o,4,15>
+<IDENTIFIER,i,4,16>
+<IDENTIFIER,s,4,17>
+<IDENTIFIER,e,4,18>
+<tk_par_izq,(,4,19>
+<IDENTIFIER,s,4,20>
+<IDENTIFIER,e,4,21>
+<IDENTIFIER,l,4,22>
+<IDENTIFIER,f,4,23>
+<tk_par_der,),4,24>
+<tk_dos_puntos,:,4,25>
+<NEWLINE,
+,4,26>
+<IDENTIFIER,i,5,9>
+<IDENTIFIER,f,5,10>
+<IDENTIFIER,s,5,12>
+<IDENTIFIER,e,5,13>
+<IDENTIFIER,l,5,14>
+<IDENTIFIER,f,5,15>
+<FLOAT,.,5,16>
+<IDENTIFIER,m,5,17>
+<IDENTIFIER,a,5,18>
+<IDENTIFIER,k,5,19>
+<IDENTIFIER,e,5,20>
+<IDENTIFIER,s,5,21>
+<SYMBOL,_,5,22>
+<IDENTIFIER,n,5,23>
+<IDENTIFIER,o,5,24>
+<IDENTIFIER,i,5,25>
+<IDENTIFIER,s,5,26>
+<IDENTIFIER,e,5,27>
+<tk_dos_puntos,:,5,28>
+<NEWLINE,
+,5,29>
+<IDENTIFIER,p,6,13>
+<IDENTIFIER,r,6,14>
+<IDENTIFIER,i,6,15>
+<IDENTIFIER,n,6,16>
+<IDENTIFIER,t,6,17>
+<tk_par_izq,(,6,18>
+<IDENTIFIER,s,6,19>
+<IDENTIFIER,e,6,20>
+<IDENTIFIER,l,6,21>
+<IDENTIFIER,f,6,22>
+<FLOAT,.,6,23>
+<IDENTIFIER,s,6,24>
+<IDENTIFIER,o,6,25>
+<IDENTIFIER,u,6,26>
+<IDENTIFIER,n,6,27>
+<IDENTIFIER,d,6,28>
+<tk_par_izq,(,6,29>
+<tk_par_der,),6,30>
+<tk_par_der,),6,31>
+<NEWLINE,
+,6,32>
+<NEWLINE,
+,7,1>
+<IDENTIFIER,d,8,5>
+<IDENTIFIER,e,8,6>
+<IDENTIFIER,f,8,7>
+<IDENTIFIER,s,8,9>
+<IDENTIFIER,o,8,10>
+<IDENTIFIER,u,8,11>
+<IDENTIFIER,n,8,12>
+<IDENTIFIER,d,8,13>
+<tk_par_izq,(,8,14>
+<IDENTIFIER,s,8,15>
+<IDENTIFIER,e,8,16>
+<IDENTIFIER,l,8,17>
+<IDENTIFIER,f,8,18>
+<tk_par_der,),8,19>
+<OPERATOR,-,8,21>
+<COMPARISON,>,8,22>
+<IDENTIFIER,s,8,24>
+<IDENTIFIER,t,8,25>
+<IDENTIFIER,r,8,26>
+<tk_dos_puntos,:,8,27>
+<NEWLINE,
+,8,28>
+<IDENTIFIER,r,9,9>
+<IDENTIFIER,e,9,10>
+<IDENTIFIER,t,9,11>
+<IDENTIFIER,u,9,12>
+<IDENTIFIER,r,9,13>
+<IDENTIFIER,n,9,14>
+<tk_cadena,",9,16>
+<SYMBOL,?,9,17>
+<SYMBOL,?,9,18>
+<SYMBOL,?,9,19>
+<tk_cadena,",9,20>
+<NEWLINE,
+,9,21>
+<NEWLINE,
+,10,1>
+<IDENTIFIER,c,11,1>
+<IDENTIFIER,l,11,2>
+<IDENTIFIER,a,11,3>
+<IDENTIFIER,s,11,4>
+<IDENTIFIER,s,11,5>
+<IDENTIFIER,C,11,7>
+<IDENTIFIER,o,11,8>
+<IDENTIFIER,w,11,9>
+<tk_par_izq,(,11,10>
+<IDENTIFIER,A,11,11>
+<IDENTIFIER,n,11,12>
+<IDENTIFIER,i,11,13>
+<IDENTIFIER,m,11,14>
+<IDENTIFIER,a,11,15>
+<IDENTIFIER,l,11,16>
+<tk_par_der,),11,17>
+<tk_dos_puntos,:,11,18>
+<NEWLINE,
+,11,19>
+<IDENTIFIER,d,12,5>
+<IDENTIFIER,e,12,6>
+<IDENTIFIER,f,12,7>
+<SYMBOL,_,12,9>
+<SYMBOL,_,12,10>
+<IDENTIFIER,i,12,11>
+<IDENTIFIER,n,12,12>
+<IDENTIFIER,i,12,13>
+<IDENTIFIER,t,12,14>
+<SYMBOL,_,12,15>
+<SYMBOL,_,12,16>
+<tk_par_izq,(,12,17>
+<IDENTIFIER,s,12,18>
+<IDENTIFIER,e,12,19>
+<IDENTIFIER,l,12,20>
+<IDENTIFIER,f,12,21>
+<tk_par_der,),12,22>
+<tk_dos_puntos,:,12,23>
+<NEWLINE,
+,12,24>
+<IDENTIFIER,s,13,9>
+<IDENTIFIER,e,13,10>
+<IDENTIFIER,l,13,11>
+<IDENTIFIER,f,13,12>
+<FLOAT,.,13,13>
+<IDENTIFIER,m,13,14>
+<IDENTIFIER,a,13,15>
+<IDENTIFIER,k,13,16>
+<IDENTIFIER,e,13,17>
+<IDENTIFIER,s,13,18>
+<SYMBOL,_,13,19>
+<IDENTIFIER,n,13,20>
+<IDENTIFIER,o,13,21>
+<IDENTIFIER,i,13,22>
+<IDENTIFIER,s,13,23>
+<IDENTIFIER,e,13,24>
+<COMPARISON,=,13,26>
+<IDENTIFIER,T,13,28>
+<IDENTIFIER,r,13,29>
+<IDENTIFIER,u,13,30>
+<IDENTIFIER,e,13,31>
+<NEWLINE,
+,13,32>
+<NEWLINE,
+,14,1>
+<IDENTIFIER,d,15,5>
+<IDENTIFIER,e,15,6>
+<IDENTIFIER,f,15,7>
+<IDENTIFIER,s,15,9>
+<IDENTIFIER,o,15,10>
+<IDENTIFIER,u,15,11>
+<IDENTIFIER,n,15,12>
+<IDENTIFIER,d,15,13>
+<tk_par_izq,(,15,14>
+<IDENTIFIER,s,15,15>
+<IDENTIFIER,e,15,16>
+<IDENTIFIER,l,15,17>
+<IDENTIFIER,f,15,18>
+<tk_par_der,),15,19>
+<OPERATOR,-,15,21>
+<COMPARISON,>,15,22>
+<IDENTIFIER,s,15,24>
+<IDENTIFIER,t,15,25>
+<IDENTIFIER,r,15,26>
+<tk_dos_puntos,:,15,27>
+<NEWLINE,
+,15,28>
+<IDENTIFIER,r,16,9>
+<IDENTIFIER,e,16,10>
+<IDENTIFIER,t,16,11>
+<IDENTIFIER,u,16,12>
+<IDENTIFIER,r,16,13>
+<IDENTIFIER,n,16,14>
+<tk_cadena,",16,16>
+<IDENTIFIER,M,16,17>
+<IDENTIFIER,o,16,18>
+<IDENTIFIER,o,16,19>
+<tk_cadena,",16,20>
+<NEWLINE,
+,16,21>
+<NEWLINE,
+,17,1>
+<IDENTIFIER,c,18,1>
+<tk_dos_puntos,:,18,2>
+<IDENTIFIER,A,18,4>
+<IDENTIFIER,n,18,5>
+<IDENTIFIER,i,18,6>
+<IDENTIFIER,m,18,7>
+<IDENTIFIER,a,18,8>
+<IDENTIFIER,l,18,9>
+<COMPARISON,=,18,11>
+<IDENTIFIER,N,18,13>
+<IDENTIFIER,o,18,14>
+<IDENTIFIER,n,18,15>
+<IDENTIFIER,e,18,16>
+<NEWLINE,
+,18,17>
+<IDENTIFIER,c,19,1>
+<COMPARISON,=,19,3>
+<IDENTIFIER,C,19,5>
+<IDENTIFIER,o,19,6>
+<IDENTIFIER,w,19,7>
+<tk_par_izq,(,19,8>
+<tk_par_der,),19,9>
+<NEWLINE,
+,19,10>
+<IDENTIFIER,c,20,1>
+<FLOAT,.,20,2>
+<IDENTIFIER,m,20,3>
+<IDENTIFIER,a,20,4>
+<IDENTIFIER,k,20,5>
+<IDENTIFIER,e,20,6>
+<SYMBOL,_,20,7>
+<IDENTIFIER,n,20,8>
+<IDENTIFIER,o,20,9>
+<IDENTIFIER,i,20,10>
+<IDENTIFIER,s,20,11>
+<IDENTIFIER,e,20,12>
+<tk_par_izq,(,20,13>
+<tk_par_der,),20,14>
+<COMMENT,#,20,17>
+<IDENTIFIER,I,20,19>
+<IDENTIFIER,m,20,20>
+<IDENTIFIER,p,20,21>
+<IDENTIFIER,r,20,22>
+<IDENTIFIER,i,20,23>
+<IDENTIFIER,m,20,24>
+<IDENTIFIER,e,20,25>
+<tk_cadena,",20,27>
+<IDENTIFIER,M,20,28>
+<IDENTIFIER,o,20,29>
+<IDENTIFIER,o,20,30>
+<tk_cadena,",20,31>
+<NEWLINE,
+,20,32>
