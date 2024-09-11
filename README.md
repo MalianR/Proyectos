@@ -35,9 +35,14 @@ A continuación se presentan las instrucciones para clonar el repositorio de for
 	`ls`
 
 	Deberias ver los archivos que contiene este repositorio donde:
+
 	**main.py**:  Es el archivo principal desde donde se hace la ejecución el análisis léxico de los archivos de entrada.
+
 	**lexico.py**: Módulo que contiene las funciones para realizar el análisis léxico.
-	**prueba.py**: Es una prueba para verificar que Python esté reconociendo las palabras reservadas y tokens establecidos. Es un archivo con código para ser procesado por el analizador léxico.
+
+	**prueba.py**: Es una prueba para verificar que Python esté reconociendo las palabras 
+    reservadas y tokens establecidos. Es un archivo con código para ser procesado por el analizador léxico.
+    
 	**salida.txt**: Este archivo,** no lo verás inicialmente,** se produce al ejecutar el programa, se guarda el resultado del análisis léxico.
 
 ### Ejecutar el programa
