@@ -42,8 +42,8 @@ A continuación se presentan las instrucciones para clonar el repositorio de for
 
 	**prueba.py**: Es una prueba para verificar que Python esté reconociendo las palabras 
     reservadas y tokens establecidos. Es un archivo con código para ser procesado por el analizador léxico.
-    
-	**salida.txt**: Este archivo,** no lo verás inicialmente,** se produce al ejecutar el programa, se guarda el resultado del análisis léxico.
+
+	**salida.txt**: Este archivo,**no lo verás inicialmente,** se produce al ejecutar el programa, se guarda el resultado del análisis léxico.
 
 ### Ejecutar el programa
 1. Una vez estas ubicado en la carpeta del programa, ejecuta este comando en tu terminal.
